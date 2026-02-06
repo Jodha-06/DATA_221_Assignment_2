@@ -16,7 +16,7 @@ listofHeadings = []
 
 #Loop through every "h2" tag in the main content
 for h2 in contentDiv.find_all("h2"):
-    #Strip all whitescape from the text
+    #Strip all whitespace from the text
     headingText = h2.get_text().strip()
 
     #Remove the "edit" text
